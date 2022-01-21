@@ -25,13 +25,16 @@ const DataTable = () => {
 
 return (
 	<div className="table-wrapper">
+		<div className="student-db">
+			<h2><u>Student Database</u></h2>
+		</div>
 	<Table striped bordered hover>
 		<thead>
 		<tr>
-			<th>Name</th>
-			<th>Email</th>
-			<th>Roll No</th>
-			<th>Action</th>
+			<th className="table-head">Full Name</th>
+			<th className="table-head">Roll No.</th>
+			<th className="table-head">Email Id</th>
+			<th className="table-head">Update Info.</th>
 		</tr>
 		</thead>
 		<tbody>{DataTable()}</tbody>

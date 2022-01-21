@@ -21,10 +21,11 @@ const deleteStudent = () => {
 
 return (
 	<tr>
-	<td>{name}</td>
-	<td>{email}</td>
-	<td>{rollno}</td>
-	<td>
+	<td className="table-head">{name}</td>
+	<td className="table-head">{rollno}</td>
+	<td className="table-head">{email}</td>
+	<td className="action">
+		
 		<Link className="edit-link"
 		to={"/edit-student/" + _id}>
 		Edit

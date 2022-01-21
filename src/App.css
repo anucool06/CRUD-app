@@ -36,6 +36,14 @@
     transform: rotate(360deg);
   }
 } */
+.student-db h2 {
+  text-align: center;
+  margin: auto auto 60px auto;
+}
+.student-db h3 {
+  text-align: center;
+  margin: auto auto 35px auto;
+}
 
 .wrapper {
   margin-bottom: 116px;
@@ -48,6 +56,19 @@
   
   .navbar-brand a {
   color: #ffffff;
+  }
+
+.table-head {
+  text-align: center;
+
+}
+
+  .action {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    /* justify-content: space-between; */
   }
   
   .form-wrapper,
@@ -89,7 +110,7 @@
   input[type=number] {
   -moz-appearance: textfield;
   }
-  
+
   .row{
     margin: 16px auto;
 }
@@ -107,9 +128,9 @@
     padding: 20px 0px 20px 0px;
 }
 
-.App-header {
+/* .App-header {
   margin-bottom: 50px;
-}
+} */
 .buttonsize {
   margin: 32px 12px;
 }

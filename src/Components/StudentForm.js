@@ -17,6 +17,9 @@ const validationSchema = Yup.object().shape({
 console.log(props);
 return (
 	<div className="form-wrapper">
+		<div className="student-db">
+			<h3><u>Create Record</u></h3>
+		</div>
 	<Formik {...props} validationSchema={validationSchema}>
 		<Form>
 		<Row>
@@ -52,7 +55,7 @@ return (
 		</FormGroup>
 		</Row>
 		<Row className="buttonsize">
-		<Button variant="danger" size="lg"
+		<Button variant="primary" size="lg"
 			block="block" type="submit">
 			{props.children}
 		</Button>
